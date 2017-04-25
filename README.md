@@ -1,4 +1,7 @@
-# test coverage for  [ast-types (v0.9.11)](http://github.com/benjamn/ast-types)  [![npm package](https://img.shields.io/npm/v/npmtest-ast-types.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ast-types) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ast-types.svg)](https://travis-ci.org/npmtest/node-npmtest-ast-types)
+# npmtest-ast-types
+
+#### basic test coverage for  [ast-types (v0.9.11)](http://github.com/benjamn/ast-types)  [![npm package](https://img.shields.io/npm/v/npmtest-ast-types.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ast-types) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ast-types.svg)](https://travis-ci.org/npmtest/node-npmtest-ast-types)
+
 #### Esprima-compatible implementation of the Mozilla JS Parser API
 
 [![NPM](https://nodei.co/npm/ast-types.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ast-types)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ast-types/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ast-types/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ast-types/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ast-types/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ast-types/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ast-types/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ast-types/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ast-types/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ast-types/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ast-types/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ast-types/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ast-types/build/coverage.html/index.html)
 
@@ -91,7 +94,8 @@
     "scripts": {
         "test": "mocha --reporter spec --full-trace test/run.js"
     },
-    "version": "0.9.11"
+    "version": "0.9.11",
+    "bin": {}
 }
 ```
 
